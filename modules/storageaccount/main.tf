@@ -1,5 +1,5 @@
 resource "azurerm_storage_account" "sa" {
-  name                     = "${var.saname}-${var.env_name}"
+  name                     = var.saname
   resource_group_name      = var.rgname
   location                 = var.location
   account_tier             = "Standard"
