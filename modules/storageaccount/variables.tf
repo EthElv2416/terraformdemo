@@ -10,3 +10,7 @@ variable "location" {
     type        = string
     description = "Azure location of storage account environment"
 }
+variable "env_name" {
+    type        = string
+    description = "Azure storage account environment"
+}
