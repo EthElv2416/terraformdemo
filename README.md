@@ -30,6 +30,7 @@ Prerequisite:
 >Install Terraform
 >Install Terragrunt
 >Azure Subscription
+>Azure Service principal for authentication
 >GitHub Account
 
 Steps to follow:
